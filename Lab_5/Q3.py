@@ -1,3 +1,7 @@
+'''Write a program to define a class to represent a bank account, with methods to deposit, 
+withdraw, and check the balance.'''
+
+
 # Define the BankAccount class
 class BankAccount:
     def __init__(self, balance=0):
@@ -31,3 +35,11 @@ account = BankAccount()
 account.deposit(500)
 account.withdraw(200)
 account.check_balance()
+
+
+
+
+
+# Name : Sanika Patil
+# Section K
+# 23FE10CSE00445

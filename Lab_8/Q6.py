@@ -1,3 +1,5 @@
+'''Implement the binary search using Python (Element should be sorted)'''
+
 def binary_search(arr, target):
     left, right = 0, len(arr) - 1
     while left <= right:
@@ -20,3 +22,10 @@ if result != -1:
     print(f"Element found at index {result}")
 else:
     print("Element not found")
+
+
+
+
+# Name : Sanika Patil
+# Section K
+# 23FE10CSE00445

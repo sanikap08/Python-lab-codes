@@ -1,3 +1,5 @@
+'''Implement the insertion sort using Python'''
+
 def insertion_sort(arr):
     for i in range(1, len(arr)):
         key = arr[i]
@@ -14,3 +16,10 @@ def insertion_sort(arr):
 arr = [64, 34, 25, 12, 22, 11, 90]
 insertion_sort(arr)
 print("Sorted Array:", arr)
+
+
+
+
+# Name : Sanika Patil
+# Section K
+# 23FE10CSE00445

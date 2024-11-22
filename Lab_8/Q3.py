@@ -1,3 +1,5 @@
+'''Implement the selection sort using Python '''
+
 def selection_sort(arr):
     n = len(arr)
     for i in range(n):
@@ -14,3 +16,11 @@ def selection_sort(arr):
 arr = [64, 34, 25, 12, 22, 11, 90]
 selection_sort(arr)
 print("Sorted Array:", arr)
+
+
+
+
+
+# Name : Sanika Patil
+# Section K
+# 23FE10CSE00445

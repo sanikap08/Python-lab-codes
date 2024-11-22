@@ -1,3 +1,5 @@
+'''Implement the bubble sort algo using classes and methods '''
+
 class BubbleSort:
     def __init__(self, arr):
         self.arr = arr
@@ -18,3 +20,10 @@ arr = [64, 34, 25, 12, 22, 11, 90]
 bubble_sort = BubbleSort(arr)
 bubble_sort.sort()
 bubble_sort.display()
+
+
+
+
+# Name : Sanika Patil
+# Section K
+# 23FE10CSE00445

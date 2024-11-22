@@ -1,3 +1,5 @@
+'''Implement the binary tree using python'''
+
 class Node:
     def __init__(self, value):
         self.left = None

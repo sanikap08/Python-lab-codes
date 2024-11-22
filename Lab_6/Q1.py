@@ -1,3 +1,13 @@
+'''Create a class ComplexNumber that represents a complex number with real and imaginary parts 
+and contain following methods: 
+1. A constructor to initialize the complex number. 
+2. add(ComplexNumber c): Returns a new ComplexNumber that is the sum of the current object and 
+another complex number. 
+3. magnitude(): Returns the magnitude of the complex number. Write a java program to create 
+two ComplexNumber objects, perform operation, and print the results along with their magnitudes.'''
+
+
+
 import math
 
 # Define the ComplexNumber class
@@ -37,3 +47,11 @@ if __name__ == "__main__":
     print(f"Magnitude of {c1}: {c1.magnitude()}")
     print(f"Magnitude of {c2}: {c2.magnitude()}")
     print(f"Magnitude of {c3}: {c3.magnitude()}")
+
+
+
+
+
+# Name : Sanika Patil
+# Section K
+# 23FE10CSE00445

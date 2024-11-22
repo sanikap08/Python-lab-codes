@@ -1,3 +1,7 @@
+''' Write a program to define a class Student with attributes like name and age, and create 
+objects to represent different students.'''
+
+
 # Define the Student class
 class Student:
     def __init__(self, name, age):
@@ -12,3 +16,11 @@ student2 = Student("Bob", 22)
 # Print details of students
 print(f"Student 1 - Name: {student1.name}, Age: {student1.age}")
 print(f"Student 2 - Name: {student2.name}, Age: {student2.age}")
+
+
+
+
+
+# Name : Sanika Patil
+# Section K
+# 23FE10CSE00445

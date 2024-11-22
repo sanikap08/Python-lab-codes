@@ -1,3 +1,9 @@
+''' Create a class Person with attributes name and age, and a method display() that prints 
+the name and age. Then, create a subclass Student that inherits from Person and adds an 
+attribute student_id. Write a method show_details() in Student to print all details, 
+including student_id.'''
+
+
 # Base class Person
 class Person:
     def __init__(self, name, age):
@@ -21,3 +27,10 @@ class Student(Person):
 # Example usage
 student = Student("Alice", 20, "S12345")
 student.show_details()
+
+
+
+
+# Name : Sanika Patil
+# Section K
+# 23FE10CSE00445

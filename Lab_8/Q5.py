@@ -1,3 +1,5 @@
+'''Implement the linear search algorithm using python'''
+
 def linear_search(arr, target):
     for i in range(len(arr)):
         if arr[i] == target:
@@ -14,3 +16,9 @@ if result != -1:
     print(f"Element found at index {result}")
 else:
     print("Element not found")
+
+
+
+# Name : Sanika Patil
+# Section K
+# 23FE10CSE00445

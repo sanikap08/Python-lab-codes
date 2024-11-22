@@ -1,3 +1,5 @@
+'''Implement the merge sort or quick sort'''
+
 def merge_sort(arr):
     if len(arr) > 1:
         mid = len(arr) // 2
@@ -35,3 +37,9 @@ def merge_sort(arr):
 arr = [64, 34, 25, 12, 22, 11, 90]
 merge_sort(arr)
 print("Sorted Array:", arr)
+
+
+
+# Name : Sanika Patil
+# Section K
+# 23FE10CSE00445

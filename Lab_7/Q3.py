@@ -1,3 +1,9 @@
+'''Create two classes Teacher and Author, each with their own description() method to describe
+the profession. Then, create a subclass TutorAuthor that inherits from both Teacher and Author.
+Use this subclass to call the description() method from each parent class. Use the super() 
+function to resolve any conflicts if necessary.'''
+
+
 # Base class Teacher
 class Teacher:
     def description(self):
@@ -20,3 +26,10 @@ class TutorAuthor(Teacher, Author):
 # Example usage
 tutor_author = TutorAuthor()
 tutor_author.description()  
+
+
+
+
+# Name : Sanika Patil
+# Section K
+# 23FE10CSE00445
